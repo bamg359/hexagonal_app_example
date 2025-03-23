@@ -10,9 +10,9 @@ import java.util.List;
 @AllArgsConstructor
 public class Order {
 
-    private int orderId;
+    private Integer orderId;
+    private List<OrderItem> items;
     private OrderStatus status;
 
-    List<OrderItem> orderItems;
 
 }
